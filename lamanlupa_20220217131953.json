@@ -1,0 +1,1006 @@
+{
+  "gathered": "February 17, 2022 13:19:53 PM",
+  "records": [
+    {
+      "location": "21km ESE of Anza, CA",
+      "magnitude": 1.09,
+      "date": "January 01, 2022",
+      "time": "09:58:38 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900535"
+    },
+    {
+      "location": "12km SSE of Bodie, CA",
+      "magnitude": 2.68,
+      "date": "January 01, 2022",
+      "time": "09:48:40 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672071"
+    },
+    {
+      "location": "7km SSE of Portola Valley, CA",
+      "magnitude": 1.28,
+      "date": "January 01, 2022",
+      "time": "09:42:15 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672066"
+    },
+    {
+      "location": "1km NNW of The Geysers, CA",
+      "magnitude": 0.36,
+      "date": "January 01, 2022",
+      "time": "09:41:09 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672061"
+    },
+    {
+      "location": "11km SSW of Ferndale, CA",
+      "magnitude": 1.84,
+      "date": "January 01, 2022",
+      "time": "09:41:05 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672056"
+    },
+    {
+      "location": "1 km ENE of El Tumbador, Guatemala",
+      "magnitude": 4.4,
+      "date": "January 01, 2022",
+      "time": "09:35:02 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8av"
+    },
+    {
+      "location": "199 km SSW of Atka, Alaska",
+      "magnitude": 2.8,
+      "date": "January 01, 2022",
+      "time": "09:34:48 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfyx"
+    },
+    {
+      "location": "103 km S of McCarthy, Alaska",
+      "magnitude": 1,
+      "date": "January 01, 2022",
+      "time": "09:32:41 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221t3720"
+    },
+    {
+      "location": "31 km N of Petersville, Alaska",
+      "magnitude": 1.2,
+      "date": "January 01, 2022",
+      "time": "09:31:28 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221t2ybj"
+    },
+    {
+      "location": "18 km NNW of Sutcliffe, Nevada",
+      "magnitude": 0.8,
+      "date": "January 01, 2022",
+      "time": "09:29:44 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830990"
+    },
+    {
+      "location": "23 km N of Sutcliffe, Nevada",
+      "magnitude": 0.2,
+      "date": "January 01, 2022",
+      "time": "09:24:43 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830989"
+    },
+    {
+      "location": "22km SW of Little Lake, CA",
+      "magnitude": 1.23,
+      "date": "January 01, 2022",
+      "time": "09:23:15 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900527"
+    },
+    {
+      "location": "2km ESE of Loma Linda, CA",
+      "magnitude": 1.14,
+      "date": "January 01, 2022",
+      "time": "09:20:54 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900519"
+    },
+    {
+      "location": "8km W of Cobb, CA",
+      "magnitude": 0.85,
+      "date": "January 01, 2022",
+      "time": "09:19:19 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672051"
+    },
+    {
+      "location": "44 km W of Anchor Point, Alaska",
+      "magnitude": 1.9,
+      "date": "January 01, 2022",
+      "time": "09:17:00 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221szw56"
+    },
+    {
+      "location": "34 km SE of Mina, Nevada",
+      "magnitude": 2.4,
+      "date": "January 01, 2022",
+      "time": "08:47:04 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830830"
+    },
+    {
+      "location": "102 km NNE of Tobelo, Indonesia",
+      "magnitude": 4.2,
+      "date": "January 01, 2022",
+      "time": "08:46:29 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbcp"
+    },
+    {
+      "location": "35 km SE of Mina, Nevada",
+      "magnitude": 2.3,
+      "date": "January 01, 2022",
+      "time": "08:42:08 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830828"
+    },
+    {
+      "location": "22 km WNW of Stanley, Idaho",
+      "magnitude": 1.69,
+      "date": "January 01, 2022",
+      "time": "08:36:02 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80535064"
+    },
+    {
+      "location": "2km E of The Geysers, CA",
+      "magnitude": 0.78,
+      "date": "January 01, 2022",
+      "time": "08:35:02 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672031"
+    },
+    {
+      "location": "2km E of The Geysers, CA",
+      "magnitude": 1.14,
+      "date": "January 01, 2022",
+      "time": "08:34:36 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672016"
+    },
+    {
+      "location": "2km E of The Geysers, CA",
+      "magnitude": 2.67,
+      "date": "January 01, 2022",
+      "time": "08:33:48 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672011"
+    },
+    {
+      "location": "3km E of The Geysers, CA",
+      "magnitude": 0.48,
+      "date": "January 01, 2022",
+      "time": "08:33:39 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672026"
+    },
+    {
+      "location": "8 km ENE of P?hala, Hawaii",
+      "magnitude": 2.05999994,
+      "date": "January 01, 2022",
+      "time": "08:28:52 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72853237"
+    },
+    {
+      "location": "3 km SSE of P?hala, Hawaii",
+      "magnitude": 1.87,
+      "date": "January 01, 2022",
+      "time": "08:25:10 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72853232"
+    },
+    {
+      "location": "85 km NE of Yonakuni, Japan",
+      "magnitude": 4.8,
+      "date": "January 01, 2022",
+      "time": "08:14:51 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8am"
+    },
+    {
+      "location": "10 km SW of Whitefish, Montana",
+      "magnitude": 2.09,
+      "date": "January 01, 2022",
+      "time": "08:11:43 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80534949"
+    },
+    {
+      "location": "northern Mid-Atlantic Ridge",
+      "magnitude": 4.4,
+      "date": "January 01, 2022",
+      "time": "08:08:27 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbcn"
+    },
+    {
+      "location": "southeast of Easter Island",
+      "magnitude": 5.6,
+      "date": "January 01, 2022",
+      "time": "08:08:09 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8ak"
+    },
+    {
+      "location": "13km E of Coso Junction, CA",
+      "magnitude": 0.96,
+      "date": "January 01, 2022",
+      "time": "08:07:21 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900511"
+    },
+    {
+      "location": "36 km WNW of Tyonek, Alaska",
+      "magnitude": 1.5,
+      "date": "January 01, 2022",
+      "time": "08:01:58 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221sb5kb"
+    },
+    {
+      "location": "16 km WNW of Gabbs, Nevada",
+      "magnitude": 1.9,
+      "date": "January 01, 2022",
+      "time": "07:58:00 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830825"
+    },
+    {
+      "location": "8 km SSW of Morton, Washington",
+      "magnitude": 0.75,
+      "date": "January 01, 2022",
+      "time": "07:49:03 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61800142"
+    },
+    {
+      "location": "24 km NW of Stanley, Idaho",
+      "magnitude": 2.35,
+      "date": "January 01, 2022",
+      "time": "07:47:56 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80534939"
+    },
+    {
+      "location": "1km WNW of Parkfield, CA",
+      "magnitude": 0.4,
+      "date": "January 01, 2022",
+      "time": "07:43:29 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73672001"
+    },
+    {
+      "location": "66 km NNE of Kelly, Wyoming",
+      "magnitude": 2.32,
+      "date": "January 01, 2022",
+      "time": "07:36:45 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60475807"
+    },
+    {
+      "location": "15 km S of Schurz, Nevada",
+      "magnitude": 1.5,
+      "date": "January 01, 2022",
+      "time": "07:30:17 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830821"
+    },
+    {
+      "location": "73 km NE of Yonakuni, Japan",
+      "magnitude": 4.6,
+      "date": "January 01, 2022",
+      "time": "07:27:57 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8ad"
+    },
+    {
+      "location": "35 km NNE of Beatty, Nevada",
+      "magnitude": 1,
+      "date": "January 01, 2022",
+      "time": "07:27:21 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830820"
+    },
+    {
+      "location": "15km WSW of Toms Place, CA",
+      "magnitude": 0.42,
+      "date": "January 01, 2022",
+      "time": "07:24:56 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671986"
+    },
+    {
+      "location": "3 km SW of Indios, Puerto Rico",
+      "magnitude": 2.68,
+      "date": "January 01, 2022",
+      "time": "07:24:30 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2022001000"
+    },
+    {
+      "location": "6km W of Cobb, CA",
+      "magnitude": 0.51,
+      "date": "January 01, 2022",
+      "time": "07:10:43 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671981"
+    },
+    {
+      "location": "21 km NNW of Sutcliffe, Nevada",
+      "magnitude": 1.2,
+      "date": "January 01, 2022",
+      "time": "07:10:42 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830979"
+    },
+    {
+      "location": "13km ENE of Ridgecrest, CA",
+      "magnitude": 1.45,
+      "date": "January 01, 2022",
+      "time": "07:10:40 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900503"
+    },
+    {
+      "location": "7 km S of Walker, California",
+      "magnitude": 1.2,
+      "date": "January 01, 2022",
+      "time": "07:09:49 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830977"
+    },
+    {
+      "location": "7 km SSE of Walker, California",
+      "magnitude": 0.3,
+      "date": "January 01, 2022",
+      "time": "07:09:28 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830975"
+    },
+    {
+      "location": "6 km E of Townsend, Tennessee",
+      "magnitude": 1.68,
+      "date": "January 01, 2022",
+      "time": "07:08:39 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/se60141743"
+    },
+    {
+      "location": "61 km ENE of Pedro Bay, Alaska",
+      "magnitude": -0.88,
+      "date": "January 01, 2022",
+      "time": "07:05:37 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/av91456121"
+    },
+    {
+      "location": "6 km W of Venetie, Alaska",
+      "magnitude": 1.6,
+      "date": "January 01, 2022",
+      "time": "06:40:06 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221rcj8r"
+    },
+    {
+      "location": "South Sandwich Islands region",
+      "magnitude": 4.4,
+      "date": "January 01, 2022",
+      "time": "06:36:56 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbck"
+    },
+    {
+      "location": "28km NW of California City, CA",
+      "magnitude": 1.72,
+      "date": "January 01, 2022",
+      "time": "06:30:11 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900487"
+    },
+    {
+      "location": "12km NE of Ocotillo Wells, CA",
+      "magnitude": 1.59,
+      "date": "January 01, 2022",
+      "time": "06:26:43 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900479"
+    },
+    {
+      "location": "6km W of Cobb, CA",
+      "magnitude": 0.35,
+      "date": "January 01, 2022",
+      "time": "06:21:47 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671956"
+    },
+    {
+      "location": "1km W of Parkfield, CA",
+      "magnitude": 3.29,
+      "date": "January 01, 2022",
+      "time": "06:10:48 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671951"
+    },
+    {
+      "location": "22km ESE of Little Lake, CA",
+      "magnitude": 0.89,
+      "date": "January 01, 2022",
+      "time": "06:07:53 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900471"
+    },
+    {
+      "location": "Izu Islands, Japan region",
+      "magnitude": 4.1,
+      "date": "January 01, 2022",
+      "time": "06:07:20 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbcj"
+    },
+    {
+      "location": "19km E of Little Lake, CA",
+      "magnitude": 1.39,
+      "date": "January 01, 2022",
+      "time": "06:02:14 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900455"
+    },
+    {
+      "location": "12 km NNE of Hoehne, Colorado",
+      "magnitude": 1.4,
+      "date": "January 01, 2022",
+      "time": "05:55:41 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g8xn"
+    },
+    {
+      "location": "66 km W of Nikiski, Alaska",
+      "magnitude": 1.6,
+      "date": "January 01, 2022",
+      "time": "05:54:50 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221qu721"
+    },
+    {
+      "location": "12km WNW of Morongo Valley, CA",
+      "magnitude": 1.34,
+      "date": "January 01, 2022",
+      "time": "05:45:55 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900447"
+    },
+    {
+      "location": "29 km N of Petersville, Alaska",
+      "magnitude": 1.6,
+      "date": "January 01, 2022",
+      "time": "05:31:29 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221qp7zu"
+    },
+    {
+      "location": "1km E of The Geysers, CA",
+      "magnitude": 0.83,
+      "date": "January 01, 2022",
+      "time": "05:28:29 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671946"
+    },
+    {
+      "location": "68 km NNE of White Mountain, Alaska",
+      "magnitude": 1.6,
+      "date": "January 01, 2022",
+      "time": "05:26:58 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221qo7nt"
+    },
+    {
+      "location": "40 km SW of Dillon, Montana",
+      "magnitude": 1.43,
+      "date": "January 01, 2022",
+      "time": "05:24:20 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80534924"
+    },
+    {
+      "location": "21km ESE of Little Lake, CA",
+      "magnitude": 1.79,
+      "date": "January 01, 2022",
+      "time": "05:23:57 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900439"
+    },
+    {
+      "location": "7 km ENE of Kenilworth, Utah",
+      "magnitude": 1.15,
+      "date": "January 01, 2022",
+      "time": "05:22:59 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60475802"
+    },
+    {
+      "location": "85 km SSW of Unalaska, Alaska",
+      "magnitude": 2.2,
+      "date": "January 01, 2022",
+      "time": "05:21:07 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221qmwp8"
+    },
+    {
+      "location": "59 km SSE of Denali National Park, Alaska",
+      "magnitude": 1.5,
+      "date": "January 01, 2022",
+      "time": "05:20:57 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221qmxa1"
+    },
+    {
+      "location": "64 km N of Chase, Alaska",
+      "magnitude": 1.3,
+      "date": "January 01, 2022",
+      "time": "05:17:15 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221qm6w1"
+    },
+    {
+      "location": "85 km NNW of Karluk, Alaska",
+      "magnitude": -0.03,
+      "date": "January 01, 2022",
+      "time": "05:16:56 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/av91456101"
+    },
+    {
+      "location": "2km E of The Geysers, CA",
+      "magnitude": 0.6,
+      "date": "January 01, 2022",
+      "time": "05:14:47 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671936"
+    },
+    {
+      "location": "82 km S of Kaktovik, Alaska",
+      "magnitude": 1.7,
+      "date": "January 01, 2022",
+      "time": "05:10:32 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221qkq79"
+    },
+    {
+      "location": "7km NW of The Geysers, CA",
+      "magnitude": 1.02,
+      "date": "January 01, 2022",
+      "time": "05:02:50 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671931"
+    },
+    {
+      "location": "33 km NNW of Sutton-Alpine, Alaska",
+      "magnitude": 1.1,
+      "date": "January 01, 2022",
+      "time": "05:01:36 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221qirg7"
+    },
+    {
+      "location": "10 km NNW of Dillon, Montana",
+      "magnitude": 0.75,
+      "date": "January 01, 2022",
+      "time": "04:58:13 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80535059"
+    },
+    {
+      "location": "38 km SSE of False Pass, Alaska",
+      "magnitude": 2.9,
+      "date": "January 01, 2022",
+      "time": "04:35:50 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfyq"
+    },
+    {
+      "location": "6km NW of The Geysers, CA",
+      "magnitude": 0.94,
+      "date": "January 01, 2022",
+      "time": "04:35:29 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671926"
+    },
+    {
+      "location": "81 km W of Adak, Alaska",
+      "magnitude": 0.5,
+      "date": "January 01, 2022",
+      "time": "04:32:21 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/av91456076"
+    },
+    {
+      "location": "69 km ESE of Pope-Vannoy Landing, Alaska",
+      "magnitude": 1.6,
+      "date": "January 01, 2022",
+      "time": "04:30:36 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221q3l84"
+    },
+    {
+      "location": "110 km NNE of Arctic Village, Alaska",
+      "magnitude": 1.9,
+      "date": "January 01, 2022",
+      "time": "04:21:00 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221q1ky8"
+    },
+    {
+      "location": "34 km SE of Mina, Nevada",
+      "magnitude": 2.1,
+      "date": "January 01, 2022",
+      "time": "04:16:55 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830817"
+    },
+    {
+      "location": "35 km SE of Mina, Nevada",
+      "magnitude": 1.3,
+      "date": "January 01, 2022",
+      "time": "04:15:07 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830816"
+    },
+    {
+      "location": "29 km ENE of Cantwell, Alaska",
+      "magnitude": 1,
+      "date": "January 01, 2022",
+      "time": "04:14:08 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221q03kc"
+    },
+    {
+      "location": "57 km NNW of Lake Minchumina, Alaska",
+      "magnitude": 0.9,
+      "date": "January 01, 2022",
+      "time": "04:11:32 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221pziiy"
+    },
+    {
+      "location": "6km NW of The Geysers, CA",
+      "magnitude": 0.23,
+      "date": "January 01, 2022",
+      "time": "04:08:15 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671916"
+    },
+    {
+      "location": "15 km ESE of Eagle River, Alaska",
+      "magnitude": 1.6,
+      "date": "January 01, 2022",
+      "time": "04:04:50 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221py1kn"
+    },
+    {
+      "location": "6km NW of The Geysers, CA",
+      "magnitude": 1.77,
+      "date": "January 01, 2022",
+      "time": "04:03:47 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671911"
+    },
+    {
+      "location": "95 km SE of Ugashik, Alaska",
+      "magnitude": 2,
+      "date": "January 01, 2022",
+      "time": "03:55:56 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221pngvj"
+    },
+    {
+      "location": "Southern Alaska",
+      "magnitude": 1,
+      "date": "January 01, 2022",
+      "time": "03:52:29 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221pmusr"
+    },
+    {
+      "location": "30 km E of Chase, Alaska",
+      "magnitude": 1.2,
+      "date": "January 01, 2022",
+      "time": "03:51:30 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221pmn5z"
+    },
+    {
+      "location": "8km WNW of Cobb, CA",
+      "magnitude": 0.88,
+      "date": "January 01, 2022",
+      "time": "03:50:38 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671906"
+    },
+    {
+      "location": "22km ENE of San Lucas, CA",
+      "magnitude": 1.06,
+      "date": "January 01, 2022",
+      "time": "03:42:34 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671901"
+    },
+    {
+      "location": "2 km W of P?hala, Hawaii",
+      "magnitude": 2.32999992,
+      "date": "January 01, 2022",
+      "time": "03:39:11 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72853097"
+    },
+    {
+      "location": "13km NNE of San Simeon, CA",
+      "magnitude": 1.96,
+      "date": "January 01, 2022",
+      "time": "03:35:20 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671896"
+    },
+    {
+      "location": "98 km ESE of Ozernovskiy, Russia",
+      "magnitude": 4.6,
+      "date": "January 01, 2022",
+      "time": "03:34:34 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g89r"
+    },
+    {
+      "location": "83 km NW of Karluk, Alaska",
+      "magnitude": 0.9,
+      "date": "January 01, 2022",
+      "time": "03:34:06 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221piy7z"
+    },
+    {
+      "location": "19 km W of Gabbs, Nevada",
+      "magnitude": 0.6,
+      "date": "January 01, 2022",
+      "time": "03:31:02 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830974"
+    },
+    {
+      "location": "4km WNW of The Geysers, CA",
+      "magnitude": 0.09,
+      "date": "January 01, 2022",
+      "time": "03:29:55 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671886"
+    },
+    {
+      "location": "136 km SSE of McCarthy, Alaska",
+      "magnitude": 1.3,
+      "date": "January 01, 2022",
+      "time": "03:12:06 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221pe8es"
+    },
+    {
+      "location": "43 km SSE of False Pass, Alaska",
+      "magnitude": 2.6,
+      "date": "January 01, 2022",
+      "time": "03:06:37 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfyn"
+    },
+    {
+      "location": "23 km SE of Chickaloon, Alaska",
+      "magnitude": 1.2,
+      "date": "January 01, 2022",
+      "time": "02:53:43 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221p1o0m"
+    },
+    {
+      "location": "242 km NW of Attu Station, Alaska",
+      "magnitude": 4,
+      "date": "January 01, 2022",
+      "time": "02:51:57 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbch"
+    },
+    {
+      "location": "7km WNW of The Geysers, CA",
+      "magnitude": 0.85,
+      "date": "January 01, 2022",
+      "time": "02:50:35 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671881"
+    },
+    {
+      "location": "14 km SW of Chiniak, Alaska",
+      "magnitude": 1.7,
+      "date": "January 01, 2022",
+      "time": "02:48:22 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221p0jtn"
+    },
+    {
+      "location": "16 km W of Gabbs, Nevada",
+      "magnitude": 1,
+      "date": "January 01, 2022",
+      "time": "02:48:04 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830815"
+    },
+    {
+      "location": "2km WSW of Anderson Springs, CA",
+      "magnitude": 0.54,
+      "date": "January 01, 2022",
+      "time": "02:33:10 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671876"
+    },
+    {
+      "location": "13 km SSE of Volcano, Hawaii",
+      "magnitude": 2.32,
+      "date": "January 01, 2022",
+      "time": "02:31:21 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72853077"
+    },
+    {
+      "location": "59 km ENE of Silver Lake, Oregon",
+      "magnitude": 1.61,
+      "date": "January 01, 2022",
+      "time": "02:18:13 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/uw61800137"
+    },
+    {
+      "location": "74 km NW of Murghob, Tajikistan",
+      "magnitude": 4.2,
+      "date": "January 01, 2022",
+      "time": "02:17:56 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g89l"
+    },
+    {
+      "location": "35 km SE of Mina, Nevada",
+      "magnitude": 1.4,
+      "date": "January 01, 2022",
+      "time": "02:17:35 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830814"
+    },
+    {
+      "location": "8km NW of The Geysers, CA",
+      "magnitude": 0.28,
+      "date": "January 01, 2022",
+      "time": "02:11:04 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671866"
+    },
+    {
+      "location": "10km NE of San Martin, CA",
+      "magnitude": 0.88,
+      "date": "January 01, 2022",
+      "time": "02:08:41 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671871"
+    },
+    {
+      "location": "61 km ENE of Pedro Bay, Alaska",
+      "magnitude": -0.92,
+      "date": "January 01, 2022",
+      "time": "02:08:30 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/av91456031"
+    },
+    {
+      "location": "14km NW of Ocotillo, CA",
+      "magnitude": 1.2,
+      "date": "January 01, 2022",
+      "time": "02:05:50 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900399"
+    },
+    {
+      "location": "33 km E of Pedro Bay, Alaska",
+      "magnitude": 1.9,
+      "date": "January 01, 2022",
+      "time": "02:02:51 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221oqr3t"
+    },
+    {
+      "location": "2 km NE of Tyonek, Alaska",
+      "magnitude": 2,
+      "date": "January 01, 2022",
+      "time": "02:02:03 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221oqneg"
+    },
+    {
+      "location": "147 km S of Adak, Alaska",
+      "magnitude": 2.3,
+      "date": "January 01, 2022",
+      "time": "01:52:49 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221og14u"
+    },
+    {
+      "location": "20 km W of Marysvale, Utah",
+      "magnitude": 1.73,
+      "date": "January 01, 2022",
+      "time": "01:50:03 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60475797"
+    },
+    {
+      "location": "4km SE of Lytle Creek, CA",
+      "magnitude": 1.64,
+      "date": "January 01, 2022",
+      "time": "01:48:56 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900391"
+    },
+    {
+      "location": "21 km W of Marysvale, Utah",
+      "magnitude": 1.44,
+      "date": "January 01, 2022",
+      "time": "01:43:43 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60475792"
+    },
+    {
+      "location": "34 km SE of Mina, Nevada",
+      "magnitude": 1.3,
+      "date": "January 01, 2022",
+      "time": "01:42:36 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830812"
+    },
+    {
+      "location": "194 km SE of Akutan, Alaska",
+      "magnitude": 3.1,
+      "date": "January 01, 2022",
+      "time": "01:38:57 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gfyv"
+    },
+    {
+      "location": "22 km W of Marysvale, Utah",
+      "magnitude": 1.79,
+      "date": "January 01, 2022",
+      "time": "01:37:37 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60475787"
+    },
+    {
+      "location": "21 km W of Marysvale, Utah",
+      "magnitude": 1.89,
+      "date": "January 01, 2022",
+      "time": "01:36:11 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/uu60475782"
+    },
+    {
+      "location": "9km W of Holtville, CA",
+      "magnitude": 1.85,
+      "date": "January 01, 2022",
+      "time": "01:31:41 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900383"
+    },
+    {
+      "location": "Central Alaska",
+      "magnitude": 1.7,
+      "date": "January 01, 2022",
+      "time": "01:31:04 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221obfmt"
+    },
+    {
+      "location": "2 km E of Quinton, Oklahoma",
+      "magnitude": 0.79,
+      "date": "January 01, 2022",
+      "time": "01:24:42 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022aacu"
+    },
+    {
+      "location": "66 km W of Akhiok, Alaska",
+      "magnitude": 1.6,
+      "date": "January 01, 2022",
+      "time": "01:09:29 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221o6rt4"
+    },
+    {
+      "location": "31 km SE of Mina, Nevada",
+      "magnitude": 1.5,
+      "date": "January 01, 2022",
+      "time": "01:05:03 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830809"
+    },
+    {
+      "location": "8km WNW of Cobb, CA",
+      "magnitude": 0.36,
+      "date": "January 01, 2022",
+      "time": "00:46:28 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671856"
+    },
+    {
+      "location": "12km SSW of Ferndale, CA",
+      "magnitude": 2.88,
+      "date": "January 01, 2022",
+      "time": "00:27:51 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671851"
+    },
+    {
+      "location": "59 km W of Nanwalek, Alaska",
+      "magnitude": 1.7,
+      "date": "January 01, 2022",
+      "time": "00:21:53 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221nnylb"
+    },
+    {
+      "location": "87 km WNW of Salamatof, Alaska",
+      "magnitude": 0.8,
+      "date": "January 01, 2022",
+      "time": "00:20:26 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0221nnop0"
+    },
+    {
+      "location": "2 km WNW of P?hala, Hawaii",
+      "magnitude": 1.73000002,
+      "date": "January 01, 2022",
+      "time": "00:18:54 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72852977"
+    },
+    {
+      "location": "5 km S of Avard, Oklahoma",
+      "magnitude": 1.23,
+      "date": "January 01, 2022",
+      "time": "00:18:34 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2022aaap"
+    },
+    {
+      "location": "48 km N of Pante Makasar, Timor Leste",
+      "magnitude": 4.1,
+      "date": "January 01, 2022",
+      "time": "00:10:28 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g896"
+    },
+    {
+      "location": "1km NNW of The Geysers, CA",
+      "magnitude": 1.09,
+      "date": "January 01, 2022",
+      "time": "00:08:58 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671846"
+    },
+    {
+      "location": "3km W of Redlands, CA",
+      "magnitude": 1.61,
+      "date": "January 01, 2022",
+      "time": "00:08:48 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900367"
+    },
+    {
+      "location": "22 km N of Sutcliffe, Nevada",
+      "magnitude": 1.4,
+      "date": "January 01, 2022",
+      "time": "00:05:51 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00830968"
+    },
+    {
+      "location": "13km NW of Parkfield, CA",
+      "magnitude": -0.15,
+      "date": "January 01, 2022",
+      "time": "00:04:37 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671841"
+    },
+    {
+      "location": "4km SSE of Palomar Observatory, CA",
+      "magnitude": 1,
+      "date": "January 01, 2022",
+      "time": "00:04:07 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900343"
+    },
+    {
+      "location": "126 km SSW of Hihifo, Tonga",
+      "magnitude": 4.6,
+      "date": "January 01, 2022",
+      "time": "00:02:24 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbcd"
+    },
+    {
+      "location": "13km NW of Parkfield, CA",
+      "magnitude": 0.51,
+      "date": "January 01, 2022",
+      "time": "00:01:06 AM",
+      "link": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73671836"
+    }
+  ]
+}
