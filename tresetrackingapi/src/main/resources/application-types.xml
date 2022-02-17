@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="gathered" format="java">
+      <types:shape format="raml"><![CDATA[#%RAML 1.0 DataType
+type: datetime]]></types:shape>
+    </types:type>
+    <types:type name="records" format="json">
+      <types:shape format="weave" example="examples/schema-eartquake-1.json"><![CDATA[%dw 2.0
+
+type records = {|
+  "type": String, 
+  metadata: {|
+    generated: Number {"typeId": "double"}, 
+    url: String, 
+    title: String, 
+    status: Number {"typeId": "int"}, 
+    api: String, 
+    count: Number {"typeId": "int"}
+  |}, 
+  features: Array<{|    "type": String,     properties: {|      mag: Number {"typeId": "double"},       place: String,       time: Number {"typeId": "double"},       updated: Number {"typeId": "double"},       tz: Null,       url: String,       detail: String,       felt: Null,       cdi: Null,       mmi: Null,       alert: Null,       status: String,       tsunami: Number {"typeId": "int"},       sig: Number {"typeId": "int"},       net: String,       code: String,       ids: String,       sources: String,       types: String,       nst: Number {"typeId": "int"},       dmin: Number {"typeId": "double"},       rms: Number {"typeId": "double"},       gap: Number {"typeId": "int"},       magType: String,       "type": String,       title: String    |},     geometry: {|      "type": String,       coordinates: Array<Number {"typeId": "double"}>
+    |}, 
+    id: String
+  |}>, 
+  bbox: Array<Number {"typeId": "double"}>
+|} {"example": "{\\\"type\\\":\\\"FeatureCollection\\\",\\\"metadata\\\":{\\\"generated\\\":1645082617000,\\\"url\\\":\\\"https:\\/\\/earthquake.usgs.gov\\/fdsnws\\/event\\/1\\/query?format=geojson&starttime=2022-01-01%2000:00:00&endtime=2022-01-01%2010:00:00\\\",\\\"title\\\":\\\"USGS Earthquakes\\\",\\\"status\\\":200,\\\"api\\\":\\\"1.13.2\\\",\\\"count\\\":143},\\\"features\\\":[{\\\"type\\\":\\\"Feature\\\",\\\"properties\\\":{\\\"mag\\\":1.09,\\\"place\\\":\\\"21km ESE of Anza, CA\\\",\\\"time\\\":1641031118300,\\\"updated\\\":1641057348080,\\\"tz\\\":null,\\\"url\\\":\\\"https:\\/\\/earthquake.usgs.gov\\/earthquakes\\/eventpage\\/ci39900535\\\",\\\"detail\\\":\\\"https:\\/\\/earthquake.usgs.gov\\/fdsnws\\/event\\/1\\/query?eventid=ci39900535&format=geojson\\\",\\\"felt\\\":null,\\\"cdi\\\":null,\\\"mmi\\\":null,\\\"alert\\\":null,\\\"status\\\":\\\"reviewed\\\",\\\"tsunami\\\":0,\\\"sig\\\":18,\\\"net\\\":\\\"ci\\\",\\\"code\\\":\\\"39900535\\\",\\\"ids\\\":\\\",ci39900535,\\\",\\\"sources\\\":\\\",ci,\\\",\\\"types\\\":\\\",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,\\\",\\\"nst\\\":35,\\\"dmin\\\":0.03926,\\\"rms\\\":0.21,\\\"gap\\\":69,\\\"magType\\\":\\\"ml\\\",\\\"type\\\":\\\"earthquake\\\",\\\"title\\\":\\\"M 1.1 - 21km ESE of Anza, CA\\\"},\\\"geometry\\\":{\\\"type\\\":\\\"Point\\\",\\\"coordinates\\\":[-116.4571667,33.4941667,5.48]},\\\"id\\\":\\\"ci39900535\\\"}],\\\"bbox\\\":[-177.82116666667,-60.0734,-2.79,170.6075,69.4025,152.56]}"}
+
+]]></types:shape>
+    </types:type>
+    <types:type name="Response" format="json">
+      <types:shape format="weave" example="examples/output-schema-4.json"><![CDATA[%dw 2.0
+
+type Response = {|
+  gathered: String, 
+  records: Array<{|    location: String,     magnitude: Number {"typeId": "int"},     date: String,     time: String,     link: String  |}>
+|} {"example": "{\\\"gathered\\\":\\\"\\\",\\\"records\\\":[{\\\"location\\\":\\\"\\\",\\\"magnitude\\\":0,\\\"date\\\":\\\"\\\",\\\"time\\\":\\\"\\\",\\\"link\\\":\\\"\\\"}]}"}
+
+]]></types:shape>
+    </types:type>
+    <types:type name="errorResponse" format="json">
+      <types:shape format="weave" example="examples/error.json"><![CDATA[%dw 2.0
+
+type errorResponse = {|
+  status: String, 
+  errorCode: Number {"typeId": "int"}, 
+  errorDescription: String
+|} {"example": "{\\\"status\\\":\\\"FAILED\\\",\\\"errorCode\\\":400,\\\"errorDescription\\\":\\\"Invalid parameter value found. Please try again with supported value.\\\"}"}
+
+]]></types:shape>
+    </types:type>
+  </types:catalog>
+  <types:enrichment select="#d590c279-ee28-4026-a17a-bdd0102005da">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="records"/>
+        </types:message>
+        <types:variables>
+          <types:variable name="gathered" type="gathered"/>
+        </types:variables>
+      </types:input-event>
+      <types:output-event>
+        <types:message>
+          <types:payload type="Response"/>
+        </types:message>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#638ebfa5-0a17-4455-b721-7f694a9c5e9f">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="errorResponse"/>
+        </types:message>
+      </types:input-event>
+    </types:processor-declaration>
+    <types:operation-declaration>
+      <types:inputs>
+        <types:parameter name="body" type="errorResponse"/>
+      </types:inputs>
+    </types:operation-declaration>
+  </types:enrichment>
+</types:mule>

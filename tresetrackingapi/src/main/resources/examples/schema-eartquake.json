@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1645082617000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2022-01-01%2000:00:00&endtime=2022-01-01%2010:00:00",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "1.13.2",
+        "count": 143
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.09,
+                "place": "21km ESE of Anza, CA",
+                "time": 1641031118300,
+                "updated": 1641057348080,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci39900535",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci39900535&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 18,
+                "net": "ci",
+                "code": "39900535",
+                "ids": ",ci39900535,",
+                "sources": ",ci,",
+                "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 35,
+                "dmin": 0.03926,
+                "rms": 0.21,
+                "gap": 69,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.1 - 21km ESE of Anza, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.4571667,
+                    33.4941667,
+                    5.48
+                ]
+            },
+            "id": "ci39900535"
+        }    
+    ],
+    "bbox": [
+        -177.82116666667,
+        -60.0734,
+        -2.79,
+        170.6075,
+        69.4025,
+        152.56
+    ]
+}

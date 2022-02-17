@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:validation="http://www.mulesoft.org/schema/mule/validation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd">
+	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="ac6b9714-4b61-4247-81ed-0f2d50655f1a" >
+		<http:request-connection host="earthquake.usgs.gov" protocol="HTTPS"/>
+	</http:request-config>
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="3f923ba3-cb79-4833-8bc7-111fb85dad7a" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<validation:config name="Validation_Config" doc:name="Validation Config" doc:id="0397f2bc-c694-4bd4-b9ae-8db230c6e710" />
+	<validation:config name="Validation_Config1" doc:name="Validation Config" doc:id="7427cdf6-f642-41e3-8c41-af90920c5846" />
+	<flow name="tresetrackingapiFlow" doc:id="f3301712-290f-4f7a-b1d2-33aa7ad84920" >
+		<http:listener doc:name="Listener" doc:id="638ebfa5-0a17-4455-b721-7f694a9c5e9f" config-ref="HTTP_Listener_config" path="/lamanlupa">
+			<http:error-response statusCode="#[vars.httpStatus default 500]">
+				<http:body ><![CDATA[#[output application/json
+---
+{
+   status:'FAILED',
+   errorCode: (vars.httpStatus as Number),
+   errorDescrition:'Invalid parameter value found. Please try again with supported value.'
+}]]]></http:body>
+			</http:error-response>
+		</http:listener>
+		<validation:is-not-null doc:name="Is not null" doc:id="56dc18c2-f858-45e6-9919-47def33db7fe" config-ref="Validation_Config" value="#[attributes.queryParams.starttime]" message="Date Start is null"/>
+		<logger level="INFO" doc:name="Logger" doc:id="0c454cea-4e0b-417b-b801-07cdc22acf14" />
+		<http:request method="GET" doc:name="Request" doc:id="7de29bb0-4d11-4abe-9325-4f8727727803" config-ref="HTTP_Request_configuration" path="/fdsnws/event/1/query">
+			<http:query-params ><![CDATA[#[output application/java
+---
+{
+	"starttime" : attributes.queryParams.starttime,
+	"format" : "geojson",
+	"endtime" : attributes.queryParams.endtime
+}]]]></http:query-params>
+		</http:request>
+		<ee:transform doc:name="Transform Message" doc:id="d590c279-ee28-4026-a17a-bdd0102005da" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+
+output application/json
+---
+{
+	gathered:now() as String {format: "MMMM dd, uuuu HH:mm:ss a"},
+	records: payload.features map ( feature , indexOfFeature ) -> {
+		location: feature.properties.place,
+		magnitude: feature.properties.mag,
+		date:(feature.properties.time as DateTime {format: "MMMM dd, uuuu", unit:"milliseconds"}),
+		time:(feature.properties.time as DateTime {format: "HH:mm:ss a", unit:"milliseconds"}),
+		link: feature.properties.url
+	}
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<error-handler>
+			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="ed88493b-952b-4a86-8786-f22f969aefa5">
+				<logger level="INFO" doc:name="Logger" doc:id="2a6927c8-6e8d-484f-be67-c6abc0d1d800" />
+				<set-variable value="400" doc:name="error code" doc:id="67c8b5f9-3f8b-4f4a-ab9c-7e3891270cb9" variableName="httpStatus"/>
+			</on-error-propagate>
+		</error-handler>		
+	</flow>
+</mule>
